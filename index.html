@@ -12,6 +12,9 @@
 
     <div id="root">
         <h1>{{text}}</h1>
+        <p>Clicca qui sotto per generare un'immagine!</p>
+        <button v-on:click='generaImg'>Genera</button>
+        <br> <br>
         <img v-bind:src="img">
     </div>
 

@@ -7,6 +7,11 @@ const root = new Vue({
 
     data: {
         text: 'Hello VueJs!',
-        img: "https://picsum.photos/200/300"
+        img: "",
+    },
+    methods: {
+        generaImg() {
+            this.img = "https://picsum.photos/200/300"
+        }
     }
 })
